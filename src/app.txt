@@ -1,0 +1,2 @@
+"GitOps Student Project" 
+"Version 1" 
