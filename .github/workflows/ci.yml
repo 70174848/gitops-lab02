@@ -7,19 +7,12 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run tests
-        run: |
-          echo "Running tests..."
-          if [ -f tests/test.txt ]; then
-            echo "Tests passed"
-          else
-            echo "Tests failed"
-            exit 1
-          fi
+      - name: Run validation
+        run: bash scripts/validate.sh
