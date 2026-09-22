@@ -1,0 +1,15 @@
+GitOps Deployment Simulation
+
+Application: gitops-lab02
+Environment: production
+Source: main branch
+Deployment method: Automated GitOps simulation
+
+Deployment Steps:
+1. Pull latest configuration from Git.
+2. Validate application files.
+3. Deploy application configuration.
+4. Verify deployment status.
+5. Monitor the deployed application.
+
+Status: Deployment successful
